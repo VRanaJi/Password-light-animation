@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>passowrd light animation</title>
+</head>
+<body>
+    <div class="center">
+        <form action="">
+            <span class="input-container">
+                <span class="label">Username</span>
+                <input type="text" class="input" />
+            </span>
+            <span class="input-container">
+                <span class="label">Password</span>
+                <input type="password" class="input" id="password" />
+                <div class="light">
+                    <span class="material-icons-outlined" onclick="toggle(this)">visibility_off</span>
+                    <div class="beam"></div>
+                </div>
+            </span>
+            <span class="input-container">
+                <button type="button">Sign In</button>
+            </span>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
